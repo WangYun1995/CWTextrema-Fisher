@@ -287,7 +287,8 @@ def scaleXTREF(
     str wavelet='iso_gdw' 
     ):
 
-    '''This function can yield the scale-PKHF and scale-VLYDF simultaneously.
+    '''
+    This function can yield the scale-PKHF and scale-VLYDF simultaneously.
     '''
     
     cdef int i
