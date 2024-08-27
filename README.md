@@ -1,5 +1,5 @@
 # CWTextrema
-**The codes for computing *the scale-dependent peak height function* (scale-PKHF) and *the scale-dependent valley depth function* (scale-VLYDF) of the cosmic-log density field.**
+**The codes for computing *the scale-dependent peak height function* (scale-PKHF) and *the scale-dependent valley depth function* (scale-VLYDF) of the cosmic-log density field, and forecasting their constraining power on cosmological parameters.**
 
 If you use our codes or your research is related to our paper, please kindly cite the following paper.
 
