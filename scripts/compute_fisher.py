@@ -40,8 +40,7 @@ statistics_deriv = [ fps_deriv, scalevlydf_deriv, scalepkhf_deriv, scale_extrema
 
 # Compute fisher matrix
 for s in range(len(statistics_fid)):
-    fisher_info = fisher( statistics_fid[s],  statistics_deriv[s], statistics_fid[s].shape[1], nsims_fiducial, delta )
-    cov         = np.linalg.inv( fisher_info )
+    fisher_info[s,:,:] = fisher( statistics_fid[s],  statistics_deriv[s], statistics_fid[s].shape[1], nsims_fiducial, delta )
 
 # Save 
 np.save('/.../fisher_matrix.npy', fisher_info)
