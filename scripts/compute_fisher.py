@@ -4,15 +4,15 @@ from Fisherinfor import  fisher
 
 # specific path and parameters
 root_path  = '/Volumes/Seagate/Works/20240421_Work/CWTextrema/data/quijote/'
-paras      = ['LC', 'EQ', 'OR_LSS','Om','Ob2','s8','ns','h']
+paras      = ['LC', 'EQ', 'OR_LSS','h','ns','Om','Ob2','s8']
 delta     = {'LC': 200.,
              'EQ': 200.,
              'OR_LSS': 200.,
+             'h': 0.04,
+             'ns': 0.04,
              'Om': 0.02,
              'Ob2': 0.004,
              's8': 0.03,
-             'ns': 0.04,
-             'h': 0.04
              }
 nsims_fiducial    = 15000
 nsims_derivatives = 500
